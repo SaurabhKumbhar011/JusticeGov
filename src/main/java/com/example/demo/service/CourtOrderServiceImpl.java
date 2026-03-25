@@ -68,7 +68,7 @@ public class CourtOrderServiceImpl implements CourtOrderService {
                     return new NotFoundException("Court Order not found: " + orderId);
                 });
 
-        logger.info("Court order fetched successfully with id={}", orderId);
+        logger.info("Court order fetched successfully with id={} ", orderId);
 
         return toResponse(order);
     }
