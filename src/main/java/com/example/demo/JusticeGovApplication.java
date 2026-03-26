@@ -8,6 +8,7 @@ public class JusticeGovApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JusticeGovApplication.class, args);
+		
 	}
 
 }
