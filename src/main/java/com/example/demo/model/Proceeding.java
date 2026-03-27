@@ -37,6 +37,7 @@ public class Proceeding {
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "HearingID", nullable = false)
+    
     @ToString.Exclude
     private Hearing hearing;
 
