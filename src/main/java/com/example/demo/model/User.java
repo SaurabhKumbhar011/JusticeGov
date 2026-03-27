@@ -37,6 +37,7 @@ public class User {
     @Column(name = "Name", nullable = false, length = 200)
     private String name;
 
+    
     @Enumerated(EnumType.STRING)
     @Column(name = "Role", nullable = false, length = 50)
     private Role role;
