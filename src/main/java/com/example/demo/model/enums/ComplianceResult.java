@@ -1,5 +1,5 @@
 package com.example.demo.model.enums;
 
 public enum ComplianceResult {
-	PASS, FAIL, WARNING
+	PASS, FAIL, WARNING, COMPLIANT, NON_COMPLIANT
 }

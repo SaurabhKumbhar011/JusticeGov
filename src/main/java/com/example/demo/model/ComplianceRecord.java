@@ -51,7 +51,12 @@ public class ComplianceRecord {
     @Lob
     @Column(name = "Notes")
     private String notes;
+    
+	@Column(name = "IsResolved")
+	private Boolean isResolved = false;
 
+	@Column(name = "CorrectiveActionNotes")
+	private String correctiveActionNotes;
     @Enumerated(EnumType.STRING)
     @Column(name = "EntityType", length = 50)
     private TargetEntityType entityType; // optional helper
