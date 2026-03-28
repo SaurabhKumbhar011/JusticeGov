@@ -1,21 +1,21 @@
-2026-03-25T10:52:25.302+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 2472 (C:\Users\2481590\Downloads\JusticeGov\JusticeGov\target\classes started by 2481590 in C:\Users\2481590\Downloads\JusticeGov\JusticeGov)
-2026-03-25T10:52:25.317+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
-2026-03-25T10:52:25.409+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-03-25T10:52:25.410+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-03-25T10:52:30.262+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-25T10:52:30.388+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
-2026-03-25T10:52:31.983+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
-2026-03-25T10:52:32.021+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-25T10:52:32.022+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-25T10:52:32.148+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 6737 ms
-2026-03-25T10:52:32.880+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-25T10:52:33.127+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-25T10:52:35.086+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-25T10:52:35.158+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-25T10:52:36.302+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20b9bd1a
-2026-03-25T10:52:36.308+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-25T10:52:36.486+05:30  WARN 2472 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-25T10:52:36.528+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-03-28T12:09:04.337+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 32392 (C:\Users\2481590\git\JusticeGov\target\classes started by 2481590 in C:\Users\2481590\git\JusticeGov)
+2026-03-28T12:09:04.347+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-28T12:09:04.421+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-28T12:09:04.421+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-28T12:09:08.822+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28T12:09:08.902+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2026-03-28T12:09:10.069+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-28T12:09:10.099+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-28T12:09:10.100+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-28T12:09:10.242+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5818 ms
+2026-03-28T12:09:10.838+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-28T12:09:10.959+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-28T12:09:11.968+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28T12:09:12.054+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-28T12:09:12.864+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c7b1b3d
+2026-03-28T12:09:12.869+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-28T12:09:12.990+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-28T12:09:13.029+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/justiceGov]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -27,356 +27,39 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-03-25T10:52:39.926+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-25T10:52:41.018+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-25T10:52:41.156+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-25T10:52:41.885+05:30  WARN 2472 --- [EmployeeManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-25T10:52:43.377+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
-2026-03-25T10:52:43.614+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
-2026-03-25T10:52:43.629+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 19.482 seconds (process running for 21.656)
-2026-03-25T10:52:43.642+05:30  WARN 2472 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
-2026-03-25T10:52:43.642+05:30  WARN 2472 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
-2026-03-25T10:52:44.941+05:30  INFO 2472 --- [EmployeeManagement] [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-25T10:52:44.941+05:30  INFO 2472 --- [EmployeeManagement] [RMI TCP Connection(10)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-25T10:52:44.944+05:30  INFO 2472 --- [EmployeeManagement] [RMI TCP Connection(10)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2026-03-25T10:52:51.132+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-2] c.e.d.controller.CourtOrderController    : POST /api/court-orders called
-2026-03-25T10:52:51.156+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-2] c.e.demo.service.CourtOrderServiceImpl   : Creating court order for caseId=103 and judgeId=2
-2026-03-25T10:52:53.303+05:30  WARN 2472 --- [EmployeeManagement] [http-nio-1234-exec-2] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 1452, SQLState: 23000
-2026-03-25T10:52:53.305+05:30  WARN 2472 --- [EmployeeManagement] [http-nio-1234-exec-2] org.hibernate.orm.jdbc.error             : Cannot add or update a child row: a foreign key constraint fails (`justicegov`.`courtorder`, CONSTRAINT `FKn3hc307iuxwdpiqe57wy2imf2` FOREIGN KEY (`CaseID`) REFERENCES `cases` (`CaseID`))
-2026-03-25T10:52:53.410+05:30 ERROR 2472 --- [EmployeeManagement] [http-nio-1234-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot add or update a child row: a foreign key constraint fails (`justicegov`.`courtorder`, CONSTRAINT `FKn3hc307iuxwdpiqe57wy2imf2` FOREIGN KEY (`CaseID`) REFERENCES `cases` (`CaseID`))] [insert into CourtOrder (CaseID,Date,Description,JudgeID,Status) values (?,?,?,?,?)]; SQL [insert into CourtOrder (CaseID,Date,Description,JudgeID,Status) values (?,?,?,?,?)]; constraint [FKn3hc307iuxwdpiqe57wy2imf2]] with root cause
-
-java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`justicegov`.`courtorder`, CONSTRAINT `FKn3hc307iuxwdpiqe57wy2imf2` FOREIGN KEY (`CaseID`) REFERENCES `cases` (`CaseID`))
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-7.0.2.jar:na]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:181) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:103) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:45) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:180) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:120) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:84) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:667) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:270) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:371) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:285) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:215) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:133) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:145) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:89) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:73) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:49) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:689) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:672) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-7.0.5.jar:7.0.5]
-	at jdk.proxy4/jdk.proxy4.$Proxy151.persist(Unknown Source) ~[na:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:240) ~[spring-orm-7.0.5.jar:7.0.5]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:386) ~[spring-orm-7.0.5.jar:7.0.5]
-	at jdk.proxy4/jdk.proxy4.$Proxy151.persist(Unknown Source) ~[na:na]
-	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:664) ~[spring-data-jpa-4.0.3.jar:4.0.3]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.0.3.jar:4.0.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.5.jar:7.0.5]
-	at jdk.proxy4/jdk.proxy4.$Proxy159.save(Unknown Source) ~[na:na]
-	at com.example.demo.service.CourtOrderServiceImpl.create(CourtOrderServiceImpl.java:53) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.5.jar:7.0.5]
-	at com.example.demo.service.CourtOrderServiceImpl$$SpringCGLIB$$0.create(<generated>) ~[classes/:na]
-	at com.example.demo.controller.CourtOrderController.create(CourtOrderController.java:84) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.18.jar:6.1]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.18.jar:6.1]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.18.jar:11.0.18]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-03-25T10:53:02.367+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-4] c.e.d.controller.CourtOrderController    : POST /api/court-orders called
-2026-03-25T10:53:02.371+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-4] c.e.demo.service.CourtOrderServiceImpl   : Creating court order for caseId=103 and judgeId=1
-2026-03-25T10:53:02.383+05:30  WARN 2472 --- [EmployeeManagement] [http-nio-1234-exec-4] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 1452, SQLState: 23000
-2026-03-25T10:53:02.383+05:30  WARN 2472 --- [EmployeeManagement] [http-nio-1234-exec-4] org.hibernate.orm.jdbc.error             : Cannot add or update a child row: a foreign key constraint fails (`justicegov`.`courtorder`, CONSTRAINT `FKn3hc307iuxwdpiqe57wy2imf2` FOREIGN KEY (`CaseID`) REFERENCES `cases` (`CaseID`))
-2026-03-25T10:53:02.403+05:30 ERROR 2472 --- [EmployeeManagement] [http-nio-1234-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot add or update a child row: a foreign key constraint fails (`justicegov`.`courtorder`, CONSTRAINT `FKn3hc307iuxwdpiqe57wy2imf2` FOREIGN KEY (`CaseID`) REFERENCES `cases` (`CaseID`))] [insert into CourtOrder (CaseID,Date,Description,JudgeID,Status) values (?,?,?,?,?)]; SQL [insert into CourtOrder (CaseID,Date,Description,JudgeID,Status) values (?,?,?,?,?)]; constraint [FKn3hc307iuxwdpiqe57wy2imf2]] with root cause
-
-java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`justicegov`.`courtorder`, CONSTRAINT `FKn3hc307iuxwdpiqe57wy2imf2` FOREIGN KEY (`CaseID`) REFERENCES `cases` (`CaseID`))
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084) ~[mysql-connector-j-9.6.0.jar:9.6.0]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-7.0.2.jar:na]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:181) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:103) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:45) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:180) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:120) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:84) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:667) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:270) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:371) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:285) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:215) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:133) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:145) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:89) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:73) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:49) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:689) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:672) ~[hibernate-core-7.2.4.Final.jar:7.2.4.Final]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-7.0.5.jar:7.0.5]
-	at jdk.proxy4/jdk.proxy4.$Proxy151.persist(Unknown Source) ~[na:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:240) ~[spring-orm-7.0.5.jar:7.0.5]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:386) ~[spring-orm-7.0.5.jar:7.0.5]
-	at jdk.proxy4/jdk.proxy4.$Proxy151.persist(Unknown Source) ~[na:na]
-	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:664) ~[spring-data-jpa-4.0.3.jar:4.0.3]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.0.3.jar:4.0.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.0.3.jar:4.0.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.5.jar:7.0.5]
-	at jdk.proxy4/jdk.proxy4.$Proxy159.save(Unknown Source) ~[na:na]
-	at com.example.demo.service.CourtOrderServiceImpl.create(CourtOrderServiceImpl.java:53) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.5.jar:7.0.5]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.5.jar:7.0.5]
-	at com.example.demo.service.CourtOrderServiceImpl$$SpringCGLIB$$0.create(<generated>) ~[classes/:na]
-	at com.example.demo.controller.CourtOrderController.create(CourtOrderController.java:84) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.18.jar:6.1]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.5.jar:7.0.5]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.18.jar:6.1]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.18.jar:11.0.18]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-03-25T10:53:07.397+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-6] c.e.d.controller.CourtOrderController    : POST /api/court-orders called
-2026-03-25T10:53:07.403+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-6] c.e.demo.service.CourtOrderServiceImpl   : Creating court order for caseId=101 and judgeId=1
-2026-03-25T10:53:07.519+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-6] c.e.demo.service.CourtOrderServiceImpl   : Court order created successfully with id=8
-2026-03-25T10:53:07.586+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-6] c.e.d.controller.CourtOrderController    : Court order created successfully with id=8
-2026-03-25T10:54:04.857+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-7] c.e.demo.controller.JudgementController  : POST /api/cases/102/judgements called
-2026-03-25T10:54:04.860+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-7] c.e.demo.service.JudgementServiceImpl    : Creating judgement for caseId=102 and judgeId=1
-2026-03-25T10:54:04.876+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-7] c.e.demo.service.JudgementServiceImpl    : Judgement created successfully with id=40
-2026-03-25T10:54:04.893+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-7] c.e.demo.controller.JudgementController  : Judgement created successfully with id=40
-2026-03-25T10:54:19.195+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-8] c.e.demo.controller.JudgementController  : PATCH /api/judgements/40 called
-2026-03-25T10:54:19.201+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-8] c.e.demo.service.JudgementServiceImpl    : Updating judgement with id=40
-2026-03-25T10:54:19.427+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-8] c.e.demo.service.JudgementServiceImpl    : Judgement updated successfully with id=40
-2026-03-25T10:57:45.065+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-1] c.e.demo.controller.JudgementController  : PATCH /api/judgements/40 called
-2026-03-25T10:57:45.073+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-1] c.e.demo.service.JudgementServiceImpl    : Updating judgement with id=40
-2026-03-25T10:57:45.090+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-1] c.e.demo.service.JudgementServiceImpl    : Judgement updated successfully with id=40
-2026-03-25T11:00:00.939+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-4] c.e.demo.controller.JudgementController  : GET /api/judgements/40 called
-2026-03-25T11:00:00.947+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-4] c.e.demo.service.JudgementServiceImpl    : Fetching judgement with id=40
-2026-03-25T11:00:12.959+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-5] c.e.demo.controller.JudgementController  : GET /api/cases/102/judgements called
-2026-03-25T11:00:12.970+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-5] c.e.demo.service.JudgementServiceImpl    : Listing judgements for caseId=102
-2026-03-25T11:00:15.178+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-5] c.e.demo.service.JudgementServiceImpl    : Found 15 judgements for caseId=102
-2026-03-25T11:01:53.144+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-8] c.e.demo.controller.JudgementController  : DELETE /api/judgements/40 called
-2026-03-25T11:01:53.153+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-8] c.e.demo.service.JudgementServiceImpl    : Deleting judgement with id=40
-2026-03-25T11:01:53.266+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-8] c.e.demo.service.JudgementServiceImpl    : Judgement deleted successfully with id=40
-2026-03-25T11:01:53.301+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-8] c.e.demo.controller.JudgementController  : Judgement deleted successfully with id=40
-2026-03-25T11:01:58.574+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-9] c.e.demo.controller.JudgementController  : GET /api/cases/102/judgements called
-2026-03-25T11:01:58.582+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-9] c.e.demo.service.JudgementServiceImpl    : Listing judgements for caseId=102
-2026-03-25T11:01:58.624+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-9] c.e.demo.service.JudgementServiceImpl    : Found 14 judgements for caseId=102
-2026-03-25T11:02:07.228+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-10] c.e.demo.controller.JudgementController  : GET /api/cases/101/judgements called
-2026-03-25T11:02:07.228+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-10] c.e.demo.service.JudgementServiceImpl    : Listing judgements for caseId=101
-2026-03-25T11:02:07.253+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-10] c.e.demo.service.JudgementServiceImpl    : Found 10 judgements for caseId=101
-2026-03-25T11:14:45.643+05:30  WARN 2472 --- [EmployeeManagement] [http-nio-1234-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.demo.model.enums.OrderStatus` from String "VACATED": not one of the values accepted for Enum class: [NON_COMPLIANT, COMPLIED, DRAFT, ISSUED]]
-2026-03-25T11:15:22.743+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-5] c.e.d.controller.CourtOrderController    : POST /api/court-orders called
-2026-03-25T11:15:22.754+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-5] c.e.demo.service.CourtOrderServiceImpl   : Creating court order for caseId=101 and judgeId=1
-2026-03-25T11:15:22.784+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-5] c.e.demo.service.CourtOrderServiceImpl   : Court order created successfully with id=9
-2026-03-25T11:15:22.800+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-5] c.e.d.controller.CourtOrderController    : Court order created successfully with id=9
-2026-03-25T11:15:44.029+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-6] c.e.d.controller.CourtOrderController    : PATCH /api/court-orders/9 called
-2026-03-25T11:15:44.038+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-6] c.e.demo.service.CourtOrderServiceImpl   : Updating court order with id=9
-2026-03-25T11:15:44.054+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-6] c.e.demo.service.CourtOrderServiceImpl   : Court order updated successfully with id=9
-2026-03-25T11:16:00.530+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-7] c.e.d.controller.CourtOrderController    : PATCH /api/court-orders/9 called
-2026-03-25T11:16:00.534+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-7] c.e.demo.service.CourtOrderServiceImpl   : Updating court order with id=9
-2026-03-25T11:16:00.548+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-7] c.e.demo.service.CourtOrderServiceImpl   : Court order updated successfully with id=9
-2026-03-25T11:16:08.606+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-8] c.e.d.controller.CourtOrderController    : GET /api/court-orders/9 called
-2026-03-25T11:16:08.606+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-8] c.e.demo.service.CourtOrderServiceImpl   : Fetching court order with id=9
-2026-03-25T11:16:08.623+05:30  INFO 2472 --- [EmployeeManagement] [http-nio-1234-exec-8] c.e.demo.service.CourtOrderServiceImpl   : Court order fetched successfully with id=9
-2026-03-25T11:18:01.368+05:30  WARN 2472 --- [EmployeeManagement] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m54s582ms549µs600ns).
-2026-03-25T11:46:01.131+05:30  WARN 2472 --- [EmployeeManagement] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m59s752ms726µs900ns).
-2026-03-25T14:00:04.168+05:30  WARN 2472 --- [EmployeeManagement] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h11m32s975ms621µs200ns).
-2026-03-25T14:15:16.664+05:30  WARN 2472 --- [EmployeeManagement] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s295ms434µs).
-2026-03-25T14:58:39.207+05:30  INFO 2472 --- [EmployeeManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
-2026-03-25T14:58:39.299+05:30  INFO 2472 --- [EmployeeManagement] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-25T14:58:39.365+05:30  INFO 2472 --- [EmployeeManagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-03-25T14:58:39.448+05:30  INFO 2472 --- [EmployeeManagement] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-25T14:58:39.500+05:30  INFO 2472 --- [EmployeeManagement] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-25T14:58:39.509+05:30  INFO 2472 --- [EmployeeManagement] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-25T14:58:40.700+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 2472 (C:\Users\2481590\Downloads\JusticeGov\JusticeGov\target\classes started by 2481590 in C:\Users\2481590\Downloads\JusticeGov\JusticeGov)
-2026-03-25T14:58:40.703+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
-2026-03-25T14:58:47.543+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-25T14:58:47.711+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 2 JPA repository interfaces.
-2026-03-25T14:58:48.579+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
-2026-03-25T14:58:48.580+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-25T14:58:48.590+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-25T14:58:48.832+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 8094 ms
-2026-03-25T14:58:49.269+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-25T14:58:49.517+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-25T14:58:49.534+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2026-03-25T14:58:49.593+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78d16be0
-2026-03-25T14:58:49.597+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2026-03-25T14:58:49.607+05:30  WARN 2472 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-25T14:58:49.613+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-03-28T12:09:14.937+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28T12:09:16.101+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T12:09:16.330+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-28T12:09:17.058+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-28T12:09:17.916+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-28T12:09:18.029+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-28T12:09:18.038+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 14.62 seconds (process running for 16.54)
+2026-03-28T12:09:18.043+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-28T12:09:18.044+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-28T12:09:18.902+05:30  INFO 32392 --- [EmployeeManagement] [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-28T12:09:18.903+05:30  INFO 32392 --- [EmployeeManagement] [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-28T12:09:18.904+05:30  INFO 32392 --- [EmployeeManagement] [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-28T12:26:37.000+05:30  INFO 32392 --- [EmployeeManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-03-28T12:26:37.006+05:30  INFO 32392 --- [EmployeeManagement] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-28T12:26:37.016+05:30  INFO 32392 --- [EmployeeManagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-28T12:26:37.023+05:30  INFO 32392 --- [EmployeeManagement] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T12:26:37.027+05:30  INFO 32392 --- [EmployeeManagement] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-28T12:26:37.035+05:30  INFO 32392 --- [EmployeeManagement] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-28T12:26:37.246+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 32392 (C:\Users\2481590\git\JusticeGov\target\classes started by 2481590 in C:\Users\2481590\git\JusticeGov)
+2026-03-28T12:26:37.247+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-28T12:26:40.699+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28T12:26:40.720+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2026-03-28T12:26:40.986+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-28T12:26:40.988+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-28T12:26:40.989+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-28T12:26:41.044+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3793 ms
+2026-03-28T12:26:41.196+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-28T12:26:41.252+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28T12:26:41.255+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-03-28T12:26:41.294+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70e81cc5
+2026-03-28T12:26:41.295+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-03-28T12:26:41.297+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-28T12:26:41.300+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/justiceGov]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -388,18 +71,177 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-03-25T14:58:51.781+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-25T14:58:53.112+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-25T14:58:54.006+05:30  WARN 2472 --- [EmployeeManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-25T14:58:55.513+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
-2026-03-25T14:58:55.696+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
-2026-03-25T14:58:55.729+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 15.404 seconds (process running for 14793.757)
-2026-03-25T14:58:55.738+05:30  WARN 2472 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
-2026-03-25T14:58:55.738+05:30  WARN 2472 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
-2026-03-25T14:58:55.738+05:30  INFO 2472 --- [EmployeeManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-03-25T15:04:59.402+05:30  INFO 2472 --- [EmployeeManagement] [RMI TCP Connection(125)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2026-03-25T15:04:59.406+05:30  INFO 2472 --- [EmployeeManagement] [RMI TCP Connection(125)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-25T15:04:59.436+05:30  INFO 2472 --- [EmployeeManagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-03-25T15:04:59.449+05:30  INFO 2472 --- [EmployeeManagement] [RMI TCP Connection(125)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-25T15:04:59.453+05:30  INFO 2472 --- [EmployeeManagement] [RMI TCP Connection(125)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2026-03-25T15:04:59.470+05:30  INFO 2472 --- [EmployeeManagement] [RMI TCP Connection(125)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-03-28T12:26:41.703+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28T12:26:42.544+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T12:26:42.705+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-28T12:26:43.011+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-28T12:26:43.056+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-28T12:26:43.063+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 5.901 seconds (process running for 1061.565)
+2026-03-28T12:26:43.066+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-28T12:26:43.066+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-28T12:26:43.068+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-28T12:26:58.398+05:30  INFO 32392 --- [EmployeeManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 1 deletion, 4 modifications)
+2026-03-28T12:26:58.403+05:30  INFO 32392 --- [EmployeeManagement] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-28T12:26:58.441+05:30  INFO 32392 --- [EmployeeManagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-28T12:26:58.454+05:30  INFO 32392 --- [EmployeeManagement] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T12:26:58.457+05:30  INFO 32392 --- [EmployeeManagement] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-03-28T12:26:58.468+05:30  INFO 32392 --- [EmployeeManagement] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-03-28T12:26:58.584+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 32392 (C:\Users\2481590\git\JusticeGov\target\classes started by 2481590 in C:\Users\2481590\git\JusticeGov)
+2026-03-28T12:26:58.585+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-28T12:26:58.896+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28T12:26:58.916+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2026-03-28T12:26:59.025+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-28T12:26:59.026+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-28T12:26:59.026+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-28T12:26:59.061+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 472 ms
+2026-03-28T12:26:59.133+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-28T12:26:59.172+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28T12:26:59.173+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-03-28T12:26:59.194+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ef493ed
+2026-03-28T12:26:59.195+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-03-28T12:26:59.196+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-28T12:26:59.197+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/justiceGov]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: justiceGov/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-28T12:26:59.472+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28T12:27:00.210+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T12:27:00.360+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-28T12:27:00.576+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-28T12:27:00.597+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-28T12:27:00.601+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 2.049 seconds (process running for 1079.103)
+2026-03-28T12:27:00.603+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-28T12:27:00.603+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-28T12:27:00.604+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-28T12:52:37.985+05:30  WARN 32392 --- [EmployeeManagement] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=23m8s617ms598µs700ns).
+2026-03-28T13:26:36.598+05:30  INFO 32392 --- [EmployeeManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-03-28T13:26:36.602+05:30  INFO 32392 --- [EmployeeManagement] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-28T13:26:36.631+05:30  INFO 32392 --- [EmployeeManagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-28T13:26:36.637+05:30  INFO 32392 --- [EmployeeManagement] [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T13:26:36.638+05:30  INFO 32392 --- [EmployeeManagement] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-03-28T13:26:36.644+05:30  INFO 32392 --- [EmployeeManagement] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-03-28T13:26:36.842+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 32392 (C:\Users\2481590\git\JusticeGov\target\classes started by 2481590 in C:\Users\2481590\git\JusticeGov)
+2026-03-28T13:26:36.842+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-28T13:26:39.836+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28T13:26:39.859+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2026-03-28T13:26:40.058+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-28T13:26:40.061+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-28T13:26:40.061+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-28T13:26:40.105+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3259 ms
+2026-03-28T13:26:40.213+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-28T13:26:40.353+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28T13:26:40.354+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-03-28T13:26:40.390+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51b59db
+2026-03-28T13:26:40.391+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-03-28T13:26:40.392+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-28T13:26:40.394+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/justiceGov]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: justiceGov/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-28T13:26:40.643+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28T13:26:41.401+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T13:26:41.593+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-28T13:26:41.806+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-28T13:26:41.837+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-28T13:26:41.843+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 5.035 seconds (process running for 4660.345)
+2026-03-28T13:26:41.845+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-28T13:26:41.845+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-28T13:26:41.847+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-28T13:26:44.271+05:30  INFO 32392 --- [EmployeeManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-03-28T13:26:44.273+05:30  INFO 32392 --- [EmployeeManagement] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-28T13:26:44.286+05:30  INFO 32392 --- [EmployeeManagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-28T13:26:44.289+05:30  INFO 32392 --- [EmployeeManagement] [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T13:26:44.290+05:30  INFO 32392 --- [EmployeeManagement] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-03-28T13:26:44.293+05:30  INFO 32392 --- [EmployeeManagement] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-03-28T13:26:44.377+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 32392 (C:\Users\2481590\git\JusticeGov\target\classes started by 2481590 in C:\Users\2481590\git\JusticeGov)
+2026-03-28T13:26:44.377+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-28T13:26:44.679+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28T13:26:44.693+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2026-03-28T13:26:44.807+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-28T13:26:44.807+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-28T13:26:44.808+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-28T13:26:44.835+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 456 ms
+2026-03-28T13:26:44.897+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-28T13:26:44.953+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28T13:26:44.954+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-03-28T13:26:44.970+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@711aedb0
+2026-03-28T13:26:44.971+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-03-28T13:26:44.972+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-28T13:26:44.973+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/justiceGov]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: justiceGov/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-28T13:26:45.203+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28T13:26:45.958+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T13:26:46.079+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-28T13:26:46.279+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-28T13:26:46.306+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-28T13:26:46.311+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 1.955 seconds (process running for 4664.813)
+2026-03-28T13:26:46.314+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-28T13:26:46.314+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-28T13:26:46.316+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-28T13:27:05.192+05:30  INFO 32392 --- [EmployeeManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-03-28T13:27:05.194+05:30  INFO 32392 --- [EmployeeManagement] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-28T13:27:05.203+05:30  INFO 32392 --- [EmployeeManagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-28T13:27:05.206+05:30  INFO 32392 --- [EmployeeManagement] [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T13:27:05.207+05:30  INFO 32392 --- [EmployeeManagement] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2026-03-28T13:27:05.212+05:30  INFO 32392 --- [EmployeeManagement] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2026-03-28T13:27:05.313+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 32392 (C:\Users\2481590\git\JusticeGov\target\classes started by 2481590 in C:\Users\2481590\git\JusticeGov)
+2026-03-28T13:27:05.314+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-28T13:27:05.741+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28T13:27:05.764+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2026-03-28T13:27:06.018+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-28T13:27:06.019+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-28T13:27:06.019+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-28T13:27:06.082+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 765 ms
+2026-03-28T13:27:06.226+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-28T13:27:06.264+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28T13:27:06.264+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-03-28T13:27:06.286+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f6144e5
+2026-03-28T13:27:06.287+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-03-28T13:27:06.290+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-28T13:27:06.291+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/justiceGov]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: justiceGov/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-28T13:27:06.612+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28T13:27:07.207+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T13:27:07.301+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-28T13:27:07.462+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-28T13:27:07.486+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-28T13:27:07.490+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 2.206 seconds (process running for 4685.992)
+2026-03-28T13:27:07.493+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-28T13:27:07.493+05:30  WARN 32392 --- [EmployeeManagement] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-28T13:27:07.494+05:30  INFO 32392 --- [EmployeeManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

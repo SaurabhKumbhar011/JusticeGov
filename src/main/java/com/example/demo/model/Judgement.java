@@ -25,7 +25,6 @@ import lombok.ToString;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Entity
 
 @Table(name = "Judgement", indexes = { @Index(name = "idx_judgement_case", columnList = "CaseID"),
@@ -37,12 +36,12 @@ public class Judgement {
 	@Column(name = "JudgementID")
 	private Long id;
 
-	@ManyToOne(optional = false)
+	@ManyToOne(optional = false) //Many judgements → one Case
 	@JoinColumn(name = "CaseID", nullable = false)
 	@ToString.Exclude
 	private Case caseRef;
 
-	@ManyToOne(optional = false)
+	@ManyToOne(optional = false) //Many judgements → one Judge
 	@JoinColumn(name = "JudgeID", nullable = false)
 	private User judge;
 
