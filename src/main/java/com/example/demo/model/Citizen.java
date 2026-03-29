@@ -1,6 +1,7 @@
 package com.example.demo.model;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -54,6 +55,12 @@ public class Citizen {
     @Enumerated(EnumType.STRING)
     @Column(name = "Status", nullable = false, length = 50)
     private GenericStatus status = GenericStatus.ACTIVE;
+    
+    @Column(name = "CreatedDate")
+    private LocalDateTime createdDate;
+
+    @Column(name = "LastModifiedDate")
+    private LocalDateTime lastModifiedDate;
 
     @OneToMany(mappedBy = "citizen", cascade = CascadeType.ALL, orphanRemoval = true)
     @Builder.Default

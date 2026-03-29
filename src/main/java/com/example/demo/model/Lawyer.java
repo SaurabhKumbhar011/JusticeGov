@@ -1,6 +1,7 @@
 package com.example.demo.model;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,6 +51,12 @@ public class Lawyer {
     @Column(name = "Status", nullable = false, length = 50)
     private GenericStatus status = GenericStatus.ACTIVE;
 
+    @Column(name = "CreatedDate")
+    private LocalDateTime createdDate;
+
+    @Column(name = "LastModifiedDate")
+    private LocalDateTime lastModifiedDate;
+    
     @OneToMany(mappedBy = "lawyer", cascade = CascadeType.ALL, orphanRemoval = true)
     @Builder.Default
     private List<LegalDocument> documents = new ArrayList<>();
