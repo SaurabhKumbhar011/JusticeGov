@@ -36,13 +36,17 @@ public class User {
 
     @Column(name = "Name", nullable = false, length = 200)
     private String name;
-
+    
     @Enumerated(EnumType.STRING)
     @Column(name = "Role", nullable = false, length = 50)
     private Role role;
 
     @Column(name = "Email", nullable = false, length = 200, unique = true)
     private String email;
+
+    // ---> THE MISSING PASSWORD FIELD <---
+    @Column(name = "Password", nullable = false)
+    private String password;
 
     @Column(name = "Phone", length = 50)
     private String phone;
