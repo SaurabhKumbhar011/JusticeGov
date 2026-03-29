@@ -3,8 +3,6 @@ package com.example.demo.controller;
 import java.net.URI;
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -23,13 +21,13 @@ import com.example.demo.service.JudgementService;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @RestController
 @RequiredArgsConstructor
 @RequestMapping(path = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
 public class JudgementController {
-
-	private static final Logger logger = LoggerFactory.getLogger(JudgementController.class);
 
 	private final JudgementService judgementService;
 
@@ -38,11 +36,11 @@ public class JudgementController {
 	public ResponseEntity<JudgementResponse> create(@PathVariable Long caseId,
 			@Valid @RequestBody JudgementCreateRequest request) {
 
-		logger.info("POST /api/cases/{}/judgements called", caseId);
+		log.info("POST /api/cases/{}/judgements called", caseId);
 
 		JudgementResponse created = judgementService.create(caseId, request);
 
-		logger.info("Judgement created successfully with id={}", created.getId());
+		log.info("Judgement created successfully with id={}", created.getId());
 
 		return ResponseEntity.created(URI.create("/api/judgements/" + created.getId())).body(created);
 	}
@@ -51,7 +49,7 @@ public class JudgementController {
 	@GetMapping("/judgements/{judgementId}")
 	public JudgementResponse getById(@PathVariable Long judgementId) {
 
-		logger.info("GET /api/judgements/{} called", judgementId);
+		log.info("GET /api/judgements/{} called", judgementId);
 
 		return judgementService.getById(judgementId);
 	}
@@ -60,7 +58,7 @@ public class JudgementController {
 	@PatchMapping(path = "/judgements/{judgementId}", consumes = MediaType.APPLICATION_JSON_VALUE)
 	public JudgementResponse patch(@PathVariable Long judgementId, @RequestBody JudgementPatchRequest request) {
 
-		logger.info("PATCH /api/judgements/{} called", judgementId);
+		log.info("PATCH /api/judgements/{} called", judgementId);
 
 		return judgementService.patch(judgementId, request);
 	}
@@ -69,21 +67,21 @@ public class JudgementController {
 	@GetMapping("/cases/{caseId}/judgements")
 	public List<JudgementResponse> listByCase(@PathVariable Long caseId) {
 
-		logger.info("GET /api/cases/{}/judgements called", caseId);
+		log.info("GET /api/cases/{}/judgements called", caseId);
 
 		return judgementService.listByCase(caseId);
 	}
 
 	// DELETE /api/judgements/{judgementId}
 	@DeleteMapping("/judgements/{judgementId}")
-	public ResponseEntity<Void> delete(@PathVariable Long judgementId) {
+	public ResponseEntity<String> delete(@PathVariable Long judgementId) {
 
-		logger.info("DELETE /api/judgements/{} called", judgementId);
+		log.info("DELETE /api/judgements/{} called", judgementId);
 
 		judgementService.delete(judgementId);
 
-		logger.info("Judgement deleted successfully with id={}", judgementId);
+		log.info("Judgement deleted successfully with id={}", judgementId);
 
-		return ResponseEntity.noContent().build();
+		return ResponseEntity.ok("Judgement with ID " + judgementId + " deleted successfully");
 	}
 }

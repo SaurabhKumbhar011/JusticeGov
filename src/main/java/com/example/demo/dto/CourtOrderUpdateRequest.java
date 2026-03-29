@@ -3,15 +3,18 @@ package com.example.demo.dto;
 import java.time.LocalDate;
 
 import com.example.demo.model.enums.OrderStatus;
-import lombok.*;
 
-@Getter
-@Setter
+import jakarta.validation.constraints.PastOrPresent;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class CourtOrderUpdateRequest {
-    private String description;
-    private LocalDate date;
-    private OrderStatus status;
+	private String description;
+	@PastOrPresent(message = "Court order date cannot be in the future")
+	private LocalDate date;
+	private OrderStatus status;
 }

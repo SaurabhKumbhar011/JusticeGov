@@ -3,8 +3,6 @@ package com.example.demo.service;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -19,20 +17,20 @@ import com.example.demo.model.enums.JudgementStatus;
 import com.example.demo.repository.JudgementRepository;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 @Transactional
 public class JudgementServiceImpl implements JudgementService {
-
-	private static final Logger logger = LoggerFactory.getLogger(JudgementServiceImpl.class);
 
 	private final JudgementRepository judgementRepository;
 
 	@Override
 	public JudgementResponse create(Long caseId, JudgementCreateRequest request) {
 
-		logger.info("Creating judgement for caseId={} and judgeId={}", caseId, request.getJudgeId());
+		log.info("Creating judgement for caseId={} and judgeId={}", caseId, request.getJudgeId());
 
 		Case caseRef = new Case();
 		caseRef.setId(caseId);
@@ -49,7 +47,7 @@ public class JudgementServiceImpl implements JudgementService {
 
 		Judgement saved = judgementRepository.save(entity);
 
-		logger.info("Judgement created successfully with id={}", saved.getId());
+		log.info("Judgement created successfully with id={}", saved.getId());
 
 		return toResponse(saved);
 	}
@@ -57,10 +55,10 @@ public class JudgementServiceImpl implements JudgementService {
 	@Override
 	public JudgementResponse getById(Long judgementId) {
 
-		logger.info("Fetching judgement with id={}", judgementId);
+		log.info("Fetching judgement with id={}", judgementId);
 
 		Judgement entity = judgementRepository.findById(judgementId).orElseThrow(() -> {
-			logger.warn("Judgement not found with id={}", judgementId);
+			log.warn("Judgement not found with id={}", judgementId);
 			return new NotFoundException("Judgement not found: " + judgementId);
 		});
 
@@ -70,10 +68,10 @@ public class JudgementServiceImpl implements JudgementService {
 	@Override
 	public JudgementResponse patch(Long judgementId, JudgementPatchRequest request) {
 
-		logger.info("Updating judgement with id={}", judgementId);
+		log.info("Updating judgement with id={}", judgementId);
 
 		Judgement entity = judgementRepository.findById(judgementId).orElseThrow(() -> {
-			logger.warn("Cannot update. Judgement not found with id={}", judgementId);
+			log.warn("Cannot update. Judgement not found with id={}", judgementId);
 			return new NotFoundException("Judgement not found: " + judgementId);
 		});
 
@@ -89,7 +87,7 @@ public class JudgementServiceImpl implements JudgementService {
 
 		Judgement updated = judgementRepository.save(entity);
 
-		logger.info("Judgement updated successfully with id={}", updated.getId());
+		log.info("Judgement updated successfully with id={}", updated.getId());
 
 		return toResponse(updated);
 	}
@@ -97,22 +95,22 @@ public class JudgementServiceImpl implements JudgementService {
 	@Override
 	public void delete(Long judgementId) {
 
-		logger.info("Deleting judgement with id={}", judgementId);
+		log.info("Deleting judgement with id={}", judgementId);
 
 		if (!judgementRepository.existsById(judgementId)) {
-			logger.warn("Cannot delete. Judgement not found with id={}", judgementId);
+			log.warn("Cannot delete. Judgement not found with id={}", judgementId);
 			throw new NotFoundException("Cannot delete. Judgement not found: " + judgementId);
 		}
 
 		judgementRepository.deleteById(judgementId);
 
-		logger.info("Judgement deleted successfully with id={}", judgementId);
+		log.info("Judgement deleted successfully with id={}", judgementId);
 	}
 
 	@Override
 	public List<JudgementResponse> listByCase(Long caseId) {
 
-		logger.info("Listing judgements for caseId={}", caseId);
+		log.info("Listing judgements for caseId={}", caseId);
 
 		List<Judgement> judgements = judgementRepository.findByCaseRef_Id(caseId);
 
@@ -121,22 +119,22 @@ public class JudgementServiceImpl implements JudgementService {
 			responseList.add(toResponse(j));
 		}
 
-		logger.info("Found {} judgements for caseId={}", responseList.size(), caseId);
+		log.info("Found {} judgements for caseId={}", responseList.size(), caseId);
 
 		return responseList;
 	}
 
 	private JudgementResponse toResponse(Judgement j) {
 
-	    JudgementResponse response = new JudgementResponse();
-	    response.setId(j.getId());
-	    response.setCaseId(j.getCaseRef().getId());
-	    response.setJudgeId(j.getJudge().getId());
-	    response.setSummary(j.getSummary());
-	    response.setDate(j.getDate());
-	    response.setStatus(j.getStatus());
+		JudgementResponse response = new JudgementResponse();
+		response.setId(j.getId());
+		response.setCaseId(j.getCaseRef().getId());
+		response.setJudgeId(j.getJudge().getId());
+		response.setSummary(j.getSummary());
+		response.setDate(j.getDate());
+		response.setStatus(j.getStatus());
 
-	    return response;
+		return response;
 	}
-	
+
 }

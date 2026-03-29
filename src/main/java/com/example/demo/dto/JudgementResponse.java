@@ -5,13 +5,14 @@ import lombok.*;
 
 import java.time.LocalDate;
 
-@Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class JudgementResponse {
-    private Long id;
-    private Long caseId;
-    private Long judgeId;
-    //private String judgeName;
-    private String summary;
-    private LocalDate date;
-    private JudgementStatus status;
+	private Long id;
+	private Long caseId;
+	private Long judgeId;
+	private String summary;
+	private LocalDate date;
+	private JudgementStatus status;
 }

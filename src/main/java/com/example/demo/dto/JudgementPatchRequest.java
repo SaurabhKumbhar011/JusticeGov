@@ -3,22 +3,18 @@ package com.example.demo.dto;
 import java.time.LocalDate;
 
 import com.example.demo.model.enums.JudgementStatus;
-import com.fasterxml.jackson.annotation.JsonInclude;
 
+import jakarta.validation.constraints.PastOrPresent;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class JudgementPatchRequest {
 	private String summary;
+	@PastOrPresent(message = "Judgement date cannot be in the future")
 	private LocalDate date;
 	private JudgementStatus status;
 }
