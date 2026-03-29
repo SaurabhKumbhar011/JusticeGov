@@ -2,8 +2,6 @@ package com.example.demo.controller;
 
 import java.net.URI;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -22,13 +20,13 @@ import com.example.demo.service.CourtOrderService;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @RestController
 @RequiredArgsConstructor
 @RequestMapping(path = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
 public class CourtOrderController {
-
-	private static final Logger logger = LoggerFactory.getLogger(CourtOrderController.class);
 
 	private final CourtOrderService courtOrderService;
 
@@ -36,11 +34,11 @@ public class CourtOrderController {
 	@PostMapping(path = "/court-orders", consumes = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<CourtOrderResponse> create(@Valid @RequestBody CourtOrderCreateRequest request) {
 
-		logger.info("POST /api/court-orders called");
+		log.info("POST /api/court-orders called");
 
 		CourtOrderResponse created = courtOrderService.create(request);
 
-		logger.info("Court order created successfully with id={}", created.getId());
+		log.info("Court order created successfully with id={}", created.getId());
 
 		return ResponseEntity.created(URI.create("/api/court-orders/" + created.getId())).body(created);
 	}
@@ -49,7 +47,7 @@ public class CourtOrderController {
 	@GetMapping("/court-orders/{orderId}")
 	public CourtOrderResponse getById(@PathVariable Long orderId) {
 
-		logger.info("GET /api/court-orders/{} called", orderId);
+		log.info("GET /api/court-orders/{} called", orderId);
 
 		return courtOrderService.getById(orderId);
 	}
@@ -58,21 +56,21 @@ public class CourtOrderController {
 	@PatchMapping(path = "/court-orders/{orderId}", consumes = MediaType.APPLICATION_JSON_VALUE)
 	public CourtOrderResponse update(@PathVariable Long orderId, @RequestBody CourtOrderUpdateRequest request) {
 
-		logger.info("PATCH /api/court-orders/{} called", orderId);
+		log.info("PATCH /api/court-orders/{} called", orderId);
 
 		return courtOrderService.update(orderId, request);
 	}
 
 	// DELETE /api/court-orders/{orderId}
 	@DeleteMapping("/court-orders/{orderId}")
-	public ResponseEntity<Void> delete(@PathVariable Long orderId) {
+	public ResponseEntity<String> delete(@PathVariable Long orderId) {
 
-		logger.info("DELETE /api/court-orders/{} called", orderId);
+		log.info("DELETE /api/court-orders/{} called", orderId);
 
 		courtOrderService.delete(orderId);
 
-		logger.info("Court order deleted successfully with id={}", orderId);
+		log.info("Court order deleted successfully with id={}", orderId);
 
-		return ResponseEntity.noContent().build();
+		return ResponseEntity.ok("Court order with ID " + orderId + " deleted successfully");
 	}
 }
