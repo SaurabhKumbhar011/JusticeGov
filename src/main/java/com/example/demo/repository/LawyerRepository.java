@@ -6,9 +6,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface LawyerRepository extends JpaRepository<Lawyer, Long> {
-<<<<<<< HEAD
-}
-=======
+
+
 	boolean existsByBarId(String barId);
 }
->>>>>>> origin/Vedasri
+

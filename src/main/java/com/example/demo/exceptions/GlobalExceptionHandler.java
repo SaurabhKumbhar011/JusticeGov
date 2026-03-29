@@ -1,9 +1,6 @@
 package com.example.demo.exceptions;
 
-import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
-import java.util.HashMap;
-import java.util.Map;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,49 +17,13 @@ import lombok.extern.slf4j.Slf4j;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-	// 1. Handles "Not Found" or Business Rule violations (RuntimeException)
-	@ExceptionHandler(RuntimeException.class)
-	public ResponseEntity<Map<String, Object>> handleNotFound(RuntimeException ex) {
-		Map<String, Object> body = new HashMap<>();
-		body.put("timestamp", LocalDateTime.now());
-		body.put("message", ex.getMessage());
-		body.put("module", "JUDICIARY_GOVERNANCE_SYSTEM"); // General module name
-		body.put("status", HttpStatus.NOT_FOUND.value());
-
-		return new ResponseEntity<>(body, HttpStatus.NOT_FOUND);
-	}
-
-	// 2. Handles bad input data or Enum conversion errors
-	// (IllegalArgumentException)
-	@ExceptionHandler(IllegalArgumentException.class)
-	public ResponseEntity<Map<String, Object>> handleBadRequest(IllegalArgumentException ex) {
-		Map<String, Object> body = new HashMap<>();
-		body.put("timestamp", LocalDateTime.now());
-		body.put("message", "Validation Error: " + ex.getMessage());
-		body.put("module", "JUDICIARY_GOVERNANCE_SYSTEM");
-		body.put("status", HttpStatus.BAD_REQUEST.value());
-
-		return new ResponseEntity<>(body, HttpStatus.BAD_REQUEST);
-	}
-
-	// 3. Catch-all for any other unexpected errors (General Exception)
-	@ExceptionHandler(Exception.class)
-	public ResponseEntity<Map<String, Object>> handleGlobalException(Exception ex) {
-		Map<String, Object> body = new HashMap<>();
-		body.put("timestamp", LocalDateTime.now());
-		body.put("message", "An unexpected error occurred: " + ex.getMessage());
-		body.put("status", HttpStatus.INTERNAL_SERVER_ERROR.value());
-
-		return new ResponseEntity<>(body, HttpStatus.INTERNAL_SERVER_ERROR);
-	}
-
 	@ExceptionHandler(NotFoundException.class)
 	public ResponseEntity<ErrorResponse> handleNotFound(NotFoundException ex, HttpServletRequest request) {
 
 		log.warn("NotFoundException: {}", ex.getMessage());
 
 		ErrorResponse error = new ErrorResponse();
-		error.setTimestamp1(OffsetDateTime.now());
+		error.setTimestamp(OffsetDateTime.now());
 		error.setStatus(HttpStatus.NOT_FOUND.value());
 		error.setError("Not Found");
 		error.setMessage(ex.getMessage());
@@ -77,7 +38,7 @@ public class GlobalExceptionHandler {
 		log.warn("BadRequestException: {}", ex.getMessage());
 
 		ErrorResponse error = new ErrorResponse();
-		error.setTimestamp1(OffsetDateTime.now());
+		error.setTimestamp(OffsetDateTime.now());
 		error.setStatus(HttpStatus.BAD_REQUEST.value());
 		error.setError("Bad Request");
 		error.setMessage(ex.getMessage());
@@ -93,7 +54,7 @@ public class GlobalExceptionHandler {
 		log.error("Unexpected error", ex);
 
 		ErrorResponse error = new ErrorResponse();
-		error.setTimestamp1(OffsetDateTime.now());
+		error.setTimestamp(OffsetDateTime.now());
 		error.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
 		error.setError("Internal Server Error");
 		error.setMessage("Something went wrong.");
@@ -110,7 +71,7 @@ public class GlobalExceptionHandler {
 		String message = ex.getBindingResult().getFieldErrors().get(0).getDefaultMessage();
 
 		ErrorResponse error = new ErrorResponse();
-		error.setTimestamp1(OffsetDateTime.now());
+		error.setTimestamp(OffsetDateTime.now());
 		error.setStatus(HttpStatus.BAD_REQUEST.value());
 		error.setError("Bad Request");
 		error.setMessage(message);
