@@ -1,0 +1,140 @@
+package com.justicegov.demo.service;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.justicegov.demo.exceptions.ResourceNotFoundException;
+import com.justicegov.demo.model.Hearing;
+import com.justicegov.demo.model.Proceeding;
+import com.justicegov.demo.model.enums.HearingStatus;
+import com.justicegov.demo.model.enums.ProceedingStatus;
+import com.justicegov.demo.repository.HearingRepository;
+import com.justicegov.demo.repository.ProceedingRepository;
+
+/**
+ * Service Implementation for Module 4.4: Hearing Scheduling & Court Proceedings.
+ * Manages the lifecycle of hearings and judicial proceedings.
+ */
+@Service
+public class HearingServiceImpl implements HearingServiceInterface {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(HearingServiceImpl.class);
+
+    @Autowired
+    private HearingRepository hearingRepository;
+
+    @Autowired
+    private ProceedingRepository proceedingRepository;
+
+    /**
+     * Schedules a new hearing after validating judge availability.
+     */
+    @Override
+    public Hearing scheduleHearing(Hearing hearing) {
+
+        Long judgeId = hearing.getJudge().getId();
+        LocalDateTime dateTime = hearing.getDateTime();
+
+        boolean conflict =
+                hearingRepository.existsByJudge_IdAndDateTime(
+                        judgeId, dateTime);
+
+        if (conflict) {
+            logger.error(
+                "AUDIT ERROR: Judge ID {} already has a hearing at {}",
+                judgeId, dateTime
+            );
+            throw new RuntimeException(
+                "Scheduling conflict: Judge is already assigned for this time slot."
+            );
+        }
+
+        hearing.setStatus(HearingStatus.SCHEDULED);
+
+        logger.info(
+            "AUDIT SUCCESS: Hearing scheduled for Case ID: {}",
+            hearing.getCaseRef().getId()
+        );
+
+        return hearingRepository.save(hearing);
+    }
+
+    /**
+     * Records judicial proceedings for a specific hearing.
+     */
+    @Override
+    public Proceeding saveProceeding(Long hearingId, Proceeding proceeding) {
+
+        Hearing hearing = hearingRepository.findById(hearingId)
+            .orElseThrow(() ->
+                new ResourceNotFoundException(
+                    "Hearing not found with ID: " + hearingId));
+
+        // Establish relationship
+        proceeding.setHearing(hearing);
+
+        // Default values
+        if (proceeding.getDate() == null) {
+            proceeding.setDate(LocalDate.now());
+        }
+
+        if (proceeding.getStatus() == null) {
+            proceeding.setStatus(ProceedingStatus.IN_SESSION);
+        }
+
+        // Optional: Keep bidirectional consistency
+        hearing.getProceedings().add(proceeding);
+
+        logger.info(
+            "AUDIT: Proceeding recorded for Hearing ID: {}",
+            hearingId
+        );
+
+        return proceedingRepository.save(proceeding);
+    }
+
+    /**
+     * Retrieves all hearings for a specific case.
+     */
+    @Override
+    public List<Hearing> getCaseHistory(Long caseId) {
+        logger.info(
+            "AUDIT: Fetching hearing history for Case ID: {}",
+            caseId
+        );
+        return hearingRepository.findByCaseRef_Id(caseId);
+    }
+
+    /**
+     * Updates the status of a hearing.
+     */
+    @Override
+    public Hearing updateHearingStatus(Long id, HearingStatus newStatus) {
+
+        return hearingRepository.findById(id)
+            .map(hearing -> {
+                hearing.setStatus(newStatus);
+                logger.info(
+                    "AUDIT: Hearing ID {} status changed to {}",
+                    id, newStatus
+                );
+                return hearingRepository.save(hearing);
+            })
+            .orElseThrow(() ->
+                new ResourceNotFoundException(
+                    "Hearing not found with ID: " + id));
+    }
+
+	@Override
+	public Hearing updateHearingStatus(Long id, String newStatus) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
