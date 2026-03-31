@@ -468,3 +468,392 @@ Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (usi
 2026-03-28T14:25:46.846+05:30  INFO 9076 --- [JusticeGov] [RMI TCP Connection(16)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-03-28T14:25:46.849+05:30  INFO 9076 --- [JusticeGov] [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2026-03-28T14:25:46.857+05:30  INFO 9076 --- [JusticeGov] [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-31T15:35:59.846+05:30  INFO 26052 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 26052 (C:\Users\2481811\git\JusticeGov\target\classes started by 2481811 in C:\Users\2481811\git\JusticeGov)
+2026-03-31T15:35:59.850+05:30  INFO 26052 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-31T15:35:59.937+05:30  INFO 26052 --- [JusticeGov] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-31T15:35:59.937+05:30  INFO 26052 --- [JusticeGov] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-31T15:36:01.650+05:30  INFO 26052 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-31T15:36:01.749+05:30  INFO 26052 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 4 JPA repository interfaces.
+2026-03-31T15:36:03.014+05:30  INFO 26052 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-31T15:36:03.047+05:30  INFO 26052 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-31T15:36:03.048+05:30  INFO 26052 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-31T15:36:03.145+05:30  INFO 26052 --- [JusticeGov] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3207 ms
+2026-03-31T15:36:03.614+05:30  INFO 26052 --- [JusticeGov] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-31T15:36:03.772+05:30  INFO 26052 --- [JusticeGov] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-31T15:36:04.588+05:30  INFO 26052 --- [JusticeGov] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-31T15:36:04.664+05:30  INFO 26052 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-31T15:36:05.285+05:30  INFO 26052 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e55c220
+2026-03-31T15:36:05.288+05:30  INFO 26052 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-31T15:36:05.386+05:30  WARN 26052 --- [JusticeGov] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-31T15:36:05.417+05:30  INFO 26052 --- [JusticeGov] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/justicegov]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: justicegov/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-31T15:36:07.319+05:30  INFO 26052 --- [JusticeGov] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-31T15:36:08.644+05:30  INFO 26052 --- [JusticeGov] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:36:08.732+05:30  INFO 26052 --- [JusticeGov] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-31T15:36:09.169+05:30  INFO 26052 --- [JusticeGov] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-31T15:36:09.340+05:30  WARN 26052 --- [JusticeGov] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-31T15:36:10.394+05:30  INFO 26052 --- [JusticeGov] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-31T15:36:10.481+05:30  WARN 26052 --- [JusticeGov] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-31T15:36:10.486+05:30  INFO 26052 --- [JusticeGov] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:36:10.491+05:30  INFO 26052 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-31T15:36:10.498+05:30  INFO 26052 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-31T15:36:10.514+05:30  INFO 26052 --- [JusticeGov] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-31T15:36:10.531+05:30 ERROR 26052 --- [JusticeGov] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 1234 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 1234 or configure this application to listen on another port.
+
+2026-03-31T15:36:40.933+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 30504 (C:\Users\2481811\git\JusticeGov\target\classes started by 2481811 in C:\Users\2481811\git\JusticeGov)
+2026-03-31T15:36:40.937+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-31T15:36:41.005+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-31T15:36:41.006+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-31T15:36:42.440+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-31T15:36:42.514+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2026-03-31T15:36:43.210+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-31T15:36:43.223+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-31T15:36:43.223+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-31T15:36:43.289+05:30  INFO 30504 --- [JusticeGov] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2283 ms
+2026-03-31T15:36:43.537+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-31T15:36:43.593+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-31T15:36:44.204+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-31T15:36:44.243+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-31T15:36:44.670+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26e33708
+2026-03-31T15:36:44.676+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-31T15:36:44.749+05:30  WARN 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-31T15:36:44.771+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/justicegov]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: justicegov/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-31T15:36:46.511+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-31T15:36:47.167+05:30  INFO 30504 --- [JusticeGov] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:36:47.249+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-31T15:36:47.619+05:30  INFO 30504 --- [JusticeGov] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-31T15:36:47.770+05:30  WARN 30504 --- [JusticeGov] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-31T15:36:48.932+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-31T15:36:49.041+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-31T15:36:49.053+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 8.636 seconds (process running for 9.531)
+2026-03-31T15:36:49.061+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-31T15:36:49.062+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-31T15:36:49.756+05:30  INFO 30504 --- [JusticeGov] [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-31T15:36:49.756+05:30  INFO 30504 --- [JusticeGov] [RMI TCP Connection(10)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-31T15:36:49.759+05:30  INFO 30504 --- [JusticeGov] [RMI TCP Connection(10)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-31T15:42:19.743+05:30  INFO 30504 --- [JusticeGov] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 186 class path changes (93 additions, 93 deletions, 0 modifications)
+2026-03-31T15:42:19.752+05:30  INFO 30504 --- [JusticeGov] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-31T15:42:19.782+05:30  INFO 30504 --- [JusticeGov] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-31T15:42:19.795+05:30  INFO 30504 --- [JusticeGov] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:42:19.800+05:30  INFO 30504 --- [JusticeGov] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-31T15:42:19.814+05:30  INFO 30504 --- [JusticeGov] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-31T15:42:19.945+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 30504 (C:\Users\2481811\git\JusticeGov\target\classes started by 2481811 in C:\Users\2481811\git\JusticeGov)
+2026-03-31T15:42:19.945+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-31T15:42:20.326+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-31T15:42:20.332+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-03-31T15:42:20.569+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-31T15:42:20.573+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-31T15:42:20.573+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-31T15:42:20.614+05:30  INFO 30504 --- [JusticeGov] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 665 ms
+2026-03-31T15:42:20.686+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-31T15:42:20.749+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-31T15:42:20.753+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-03-31T15:42:20.794+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@417419dc
+2026-03-31T15:42:20.794+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-03-31T15:42:20.797+05:30  WARN 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-31T15:42:20.799+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/justicegov]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: justicegov/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-31T15:42:20.848+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-31T15:42:20.854+05:30  INFO 30504 --- [JusticeGov] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:42:20.937+05:30  WARN 30504 --- [JusticeGov] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-31T15:42:21.333+05:30  WARN 30504 --- [JusticeGov] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e7b6d448-6d01-4e3f-833a-a36f97e20e3b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-31T15:42:21.357+05:30  INFO 30504 --- [JusticeGov] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-31T15:42:21.492+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-31T15:42:21.560+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-31T15:42:21.566+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 1.669 seconds (process running for 342.044)
+2026-03-31T15:42:21.569+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-31T15:42:21.569+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-31T15:42:21.575+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-03-31T15:42:25.942+05:30  INFO 30504 --- [JusticeGov] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2026-03-31T15:42:25.945+05:30  INFO 30504 --- [JusticeGov] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-31T15:42:25.965+05:30  INFO 30504 --- [JusticeGov] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-31T15:42:25.973+05:30  INFO 30504 --- [JusticeGov] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:42:25.975+05:30  INFO 30504 --- [JusticeGov] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-03-31T15:42:25.981+05:30  INFO 30504 --- [JusticeGov] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-03-31T15:42:26.139+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 30504 (C:\Users\2481811\git\JusticeGov\target\classes started by 2481811 in C:\Users\2481811\git\JusticeGov)
+2026-03-31T15:42:26.139+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-31T15:42:26.412+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-31T15:42:26.415+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2026-03-31T15:42:26.570+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-31T15:42:26.572+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-31T15:42:26.572+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-31T15:42:26.609+05:30  INFO 30504 --- [JusticeGov] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 468 ms
+2026-03-31T15:42:26.666+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-31T15:42:26.694+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-31T15:42:26.696+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-03-31T15:42:26.710+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d33d286
+2026-03-31T15:42:26.710+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-03-31T15:42:26.712+05:30  WARN 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-31T15:42:26.712+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/justicegov]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: justicegov/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-31T15:42:26.729+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-31T15:42:26.730+05:30  INFO 30504 --- [JusticeGov] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:42:26.764+05:30  WARN 30504 --- [JusticeGov] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-31T15:42:26.929+05:30  WARN 30504 --- [JusticeGov] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8e2fff7c-9b85-4d6b-b305-57319e0f9686
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-31T15:42:26.943+05:30  INFO 30504 --- [JusticeGov] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-31T15:42:27.031+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-31T15:42:27.074+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-31T15:42:27.077+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 0.98 seconds (process running for 347.556)
+2026-03-31T15:42:27.080+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-31T15:42:27.080+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-31T15:42:27.082+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-31T15:43:23.724+05:30  INFO 30504 --- [JusticeGov] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2026-03-31T15:43:23.727+05:30  INFO 30504 --- [JusticeGov] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-31T15:43:23.759+05:30  INFO 30504 --- [JusticeGov] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-31T15:43:23.768+05:30  INFO 30504 --- [JusticeGov] [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:43:23.770+05:30  INFO 30504 --- [JusticeGov] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-03-31T15:43:23.780+05:30  INFO 30504 --- [JusticeGov] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-03-31T15:43:23.890+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 30504 (C:\Users\2481811\git\JusticeGov\target\classes started by 2481811 in C:\Users\2481811\git\JusticeGov)
+2026-03-31T15:43:23.890+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-31T15:43:24.184+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-31T15:43:24.190+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-03-31T15:43:24.334+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-31T15:43:24.335+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-31T15:43:24.335+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-31T15:43:24.381+05:30  INFO 30504 --- [JusticeGov] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 489 ms
+2026-03-31T15:43:24.437+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-31T15:43:24.467+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-31T15:43:24.469+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-03-31T15:43:24.483+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60ee7319
+2026-03-31T15:43:24.483+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-03-31T15:43:24.484+05:30  WARN 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-31T15:43:24.485+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/justicegov]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: justicegov/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-31T15:43:24.510+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-31T15:43:24.512+05:30  INFO 30504 --- [JusticeGov] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:43:24.546+05:30  WARN 30504 --- [JusticeGov] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-31T15:43:24.729+05:30  WARN 30504 --- [JusticeGov] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c75e9a74-5a3f-4472-9d7a-ad1c6501a9c3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-31T15:43:24.741+05:30  INFO 30504 --- [JusticeGov] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-31T15:43:24.876+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-31T15:43:24.924+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-31T15:43:24.931+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 1.063 seconds (process running for 405.408)
+2026-03-31T15:43:24.932+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-31T15:43:24.933+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-31T15:43:24.934+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-31T15:44:28.914+05:30  INFO 30504 --- [JusticeGov] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 97 class path changes (0 additions, 97 deletions, 0 modifications)
+2026-03-31T15:44:28.919+05:30  INFO 30504 --- [JusticeGov] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-31T15:44:28.942+05:30  INFO 30504 --- [JusticeGov] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-31T15:44:28.947+05:30  INFO 30504 --- [JusticeGov] [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:44:28.950+05:30  INFO 30504 --- [JusticeGov] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-03-31T15:44:28.956+05:30  INFO 30504 --- [JusticeGov] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-03-31T15:44:31.357+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 30504 (C:\Users\2481811\git\JusticeGov\target\classes started by 2481811 in C:\Users\2481811\git\JusticeGov)
+2026-03-31T15:44:31.358+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-31T15:44:31.603+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-31T15:44:31.605+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2026-03-31T15:44:31.748+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-31T15:44:31.750+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-31T15:44:31.750+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-31T15:44:31.793+05:30  INFO 30504 --- [JusticeGov] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 434 ms
+2026-03-31T15:44:31.836+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-31T15:44:31.877+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-31T15:44:31.879+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-03-31T15:44:31.897+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@175b2134
+2026-03-31T15:44:31.897+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-03-31T15:44:31.901+05:30  WARN 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-31T15:44:31.902+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/justicegov]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: justicegov/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-31T15:44:31.923+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-31T15:44:31.924+05:30  INFO 30504 --- [JusticeGov] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:44:31.970+05:30  WARN 30504 --- [JusticeGov] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-31T15:44:32.148+05:30  WARN 30504 --- [JusticeGov] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d4df0db9-f315-460e-aa3e-3060071b22c4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-31T15:44:32.165+05:30  INFO 30504 --- [JusticeGov] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-31T15:44:32.253+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-31T15:44:32.354+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-31T15:44:32.358+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 1.026 seconds (process running for 472.836)
+2026-03-31T15:44:32.359+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-31T15:44:32.359+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-31T15:44:32.360+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-31T15:45:17.618+05:30  INFO 30504 --- [JusticeGov] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 97 class path changes (0 additions, 97 deletions, 0 modifications)
+2026-03-31T15:45:17.620+05:30  INFO 30504 --- [JusticeGov] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-31T15:45:17.633+05:30  INFO 30504 --- [JusticeGov] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-31T15:45:17.637+05:30  INFO 30504 --- [JusticeGov] [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:45:17.638+05:30  INFO 30504 --- [JusticeGov] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2026-03-31T15:45:17.645+05:30  INFO 30504 --- [JusticeGov] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2026-03-31T15:45:19.820+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Starting JusticeGovApplication using Java 21.0.8 with PID 30504 (C:\Users\2481811\git\JusticeGov\target\classes started by 2481811 in C:\Users\2481811\git\JusticeGov)
+2026-03-31T15:45:19.822+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-31T15:45:20.158+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-31T15:45:20.160+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2026-03-31T15:45:20.275+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 1234 (http)
+2026-03-31T15:45:20.275+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-31T15:45:20.275+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-31T15:45:20.307+05:30  INFO 30504 --- [JusticeGov] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 481 ms
+2026-03-31T15:45:20.354+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-31T15:45:20.380+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-31T15:45:20.382+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-03-31T15:45:20.401+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6828ceca
+2026-03-31T15:45:20.403+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-03-31T15:45:20.404+05:30  WARN 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-31T15:45:20.404+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/justicegov]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: justicegov/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-31T15:45:20.422+05:30  INFO 30504 --- [JusticeGov] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-31T15:45:20.422+05:30  INFO 30504 --- [JusticeGov] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:45:20.456+05:30  WARN 30504 --- [JusticeGov] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-31T15:45:20.625+05:30  WARN 30504 --- [JusticeGov] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 46fcbde6-8f46-4cd8-a9f7-bcb4c5a34e1c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-31T15:45:20.641+05:30  INFO 30504 --- [JusticeGov] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-31T15:45:20.725+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-03-31T15:45:20.783+05:30  INFO 30504 --- [JusticeGov] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 1234 (http) with context path '/'
+2026-03-31T15:45:20.786+05:30  INFO 30504 --- [JusticeGov] [restartedMain] com.example.demo.JusticeGovApplication   : Started JusticeGovApplication in 1.005 seconds (process running for 521.265)
+2026-03-31T15:45:20.788+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-31T15:45:20.788+05:30  WARN 30504 --- [JusticeGov] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-31T15:45:20.789+05:30  INFO 30504 --- [JusticeGov] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-31T15:46:52.841+05:30  INFO 30504 --- [JusticeGov] [RMI TCP Connection(33)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-03-31T15:46:52.842+05:30  INFO 30504 --- [JusticeGov] [RMI TCP Connection(33)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-31T15:46:52.855+05:30  INFO 30504 --- [JusticeGov] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-31T15:46:52.859+05:30  INFO 30504 --- [JusticeGov] [RMI TCP Connection(33)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-31T15:46:52.860+05:30  INFO 30504 --- [JusticeGov] [RMI TCP Connection(33)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-03-31T15:46:52.867+05:30  INFO 30504 --- [JusticeGov] [RMI TCP Connection(33)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
