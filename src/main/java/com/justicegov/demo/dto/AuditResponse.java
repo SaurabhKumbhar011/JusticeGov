@@ -1,0 +1,14 @@
+package com.justicegov.demo.dto;
+
+import lombok.Data;
+import java.time.LocalDate;
+
+@Data
+public class AuditResponse {
+    private Long auditId; 
+    private Long officerId;
+    private String scope;
+    private String findings;
+    private LocalDate date;
+    private String status;
+}
